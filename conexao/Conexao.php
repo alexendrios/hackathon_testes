@@ -2,9 +2,9 @@
 
 class Conexao {
 
-    private $dsn = 'mysql:host=localhost;dbname=controle_acesso;charset=utf8';
-    private $username = 'root';
-    private $password = '';
+    private $dsn = 'mysql:host=db4free.net;dbname=controle_hackat_;charset=utf8';
+    private $username = 'hackathon';
+    private $password = 'hackathon';
 
     private function getDsn() {
         return $this->dsn;
